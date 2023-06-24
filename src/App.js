@@ -6,14 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>I AM GAURAV SHARMAfd</p> 
+        <p>I AM GAURAV SHARMA from MINFY TECHNOLOGIES</p> 
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://gauravsharma-portfolio.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit My Website
         </a>
       </header>
     </div>
