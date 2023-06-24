@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install: 
-  - docker build -t fifapes123/react-docker-CI-AWS -f Dockerfile.dev .
+  - docker build -t fifapes123/react-docker-ci-aws -f Dockerfile.dev .
   
 script: 
-  - docker run -e CI=true fifapes123/react-docker-CI-AWS npm run test
+  - docker run -e CI=true fifapes123/react-docker-ci-aws npm run test
